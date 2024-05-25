@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1359c1; /* Background color */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center; /* Center the header content */
+    padding: 20px; /* Add padding for spacing */
+    margin-bottom: 0.5px; /* Reduce the space between header and main content */
+}
+
+#header-title {
+    color: yellow;
+    margin: 0; /* Remove default margin */
+}
+
+.nav-links {
+    list-style: none; /* Remove bullet points from list */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the navigation links */
+}
+
+.nav-links li {
+    margin: 0 10px; /* Add horizontal margin to each list item */
+}
+
+.nav-links a {
+    color: white; /* Text color of navigation links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.portfolio {
+    overflow-y: auto; /* Enable vertical scrolling */
+    max-height: 400px; /* Limit the height of the container */
+}
+
+.status-card {
+    padding: 20px;
+    background-color: #7c7c7c;
+    border: 5px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.status-card a:visited {
+    color: inherit; /* Use the default color */
+}
+
+footer a {
+    color: inherit; /* Use the default color */
+}
+
+main {
+    color: white; /* Set text color to white */
+    padding: 20px; /* Add padding around main content */
+}
+
+main p {
+    margin-bottom: 20px; /* Add space between paragraphs */
+    margin-top: 10px; /* Adjust the top margin */
+}
+
+/* Add styles for specific sections within the main tag */
+main #about1 {
+    background-color: #1359c1;
+    padding: 15px;
+}
+
+main #about2 {
+    background-color: #1359c1;
+    padding: 15px;
+}
+
+main #about3 {
+    background-color: #1359c1;
+    padding: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+/*
+ * Legal Disclaimer:
+ * 
+ * This stylesheet, authored by Amaudre Scarescore, is proprietary and confidential. 
+ * It is provided for educational and demonstration purposes only and is not intended 
+ * for use in production environments or commercial applications without explicit 
+ * written permission from the author.
+ * 
+ * Unauthorized reproduction, distribution, or use of this stylesheet, in whole or in part, 
+ * is strictly prohibited and may result in legal action. 
+ * 
+ * Amaudre Scarescore assumes no liability for any damages or losses incurred 
+ * as a result of using or misusing this stylesheet.
+ * 
+ * For inquiries regarding licensing or permissions, please contact: Amaudre Scarescore.
+ */
